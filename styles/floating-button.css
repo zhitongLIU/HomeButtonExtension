@@ -1,0 +1,76 @@
+.home-button-container {
+  position: fixed !important;
+  z-index: 2147483647 !important;
+  touch-action: none;
+  user-select: none;
+  width: 50px !important;
+  height: 50px !important;
+  display: block !important;
+  pointer-events: auto !important;
+}
+
+.home-button {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 25px !important;
+  background-color: rgba(128, 128, 128, 0.3) !important;
+  cursor: move !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: white !important;
+  font-size: 24px !important;
+  transition: background-color 0.3s !important;
+  box-shadow: 0 2px 10px rgba(128, 128, 128, 0.2) !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+.home-button:hover {
+  background-color: rgba(128, 128, 128, 0.5) !important;
+}
+
+.actions-menu {
+  position: absolute !important;
+  display: none !important;
+  background-color: white !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+  padding: 8px !important;
+  width: 150px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  pointer-events: auto !important;
+  transition: left 0.3s, right 0.3s !important;
+}
+
+.actions-menu.visible {
+  display: block !important;
+}
+
+.action-item {
+  display: flex !important;
+  align-items: center !important;
+  padding: 8px !important;
+  cursor: pointer !important;
+  border-radius: 4px !important;
+  color: #333 !important;
+  transition: background-color 0.2s !important;
+  pointer-events: auto !important;
+}
+
+.action-item:hover {
+  background-color: #f0f0f0 !important;
+}
+
+.action-item i {
+  margin-right: 8px !important;
+  font-size: 18px !important;
+  width: 20px !important;
+  text-align: center !important;
+}
+
+.action-item span {
+  flex-grow: 1 !important;
+} 
