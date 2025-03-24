@@ -14,7 +14,7 @@ A Chrome extension that adds a floating home button similar to the iPhone's virt
   - Refresh page
 - Configurable URL exclusion list
 - Persistent button position
-- Touch-friendly
+- Touch-friendly (I used it in my [MagicMirrow](https://github.com/MagicMirrorOrg/MagicMirror) project, as a way to get back to my mirror once a popup web tab is opened)
 
 ## Installation
 
