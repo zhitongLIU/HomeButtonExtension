@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "HomeButtonExtension",
+  "name": "Virtual Home Button",
   "version": "1.0",
-  "description": "A floating home button with navigation actions",
+  "description": "A floating home button like in iphone with navigation actions",
   "permissions": [
     "storage",
     "activeTab"
