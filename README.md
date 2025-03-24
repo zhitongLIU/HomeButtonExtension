@@ -2,6 +2,8 @@
 
 A Chrome extension that adds a floating home button similar to the iPhone's virtual home button. The button can be moved around the screen and provides quick access to common browser actions.
 
+![Screenshot](/screenshots/1.png)
+
 ## Features
 
 - Draggable floating button that sticks to screen edges
